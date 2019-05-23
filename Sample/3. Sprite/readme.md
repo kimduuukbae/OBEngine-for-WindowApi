@@ -10,6 +10,11 @@ Sprite 사용을 통해 background, image 등 bitmap resource 를 사용할 수 
 
 <img src="https://user-images.githubusercontent.com/39338850/58267093-e1accd00-7dbd-11e9-9e41-d1ebdee5c6cd.png" width="60%"></img>
 
+다음과 같은 50%의 투명도의 background가 생성됩니다.
+
+<img src="https://user-images.githubusercontent.com/39338850/58267390-7dd6d400-7dbe-11e9-993c-8101fc6698af.png" width="30%"></img>
+
+
 sprite 는 원한다면, 상속하여 새로운 sprite instance 를 만들 수 있습니다.
 sprite.h 는 다음과 같이 되어 있습니다.
 
