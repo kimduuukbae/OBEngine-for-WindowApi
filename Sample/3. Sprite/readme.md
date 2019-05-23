@@ -1,4 +1,4 @@
-# Sprite 
+#  Sprite 
 
 Sprite 사용을 통해 background, image 등 bitmap resource 를 사용할 수 있습니다.
 
