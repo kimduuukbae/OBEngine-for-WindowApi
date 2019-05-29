@@ -37,7 +37,7 @@ Sound들의 sequence 를 Number로 관리하지 마십시오. 대신 전역적�
 enum 형을 Define.h 에 저장하고, Sound가 쓰일 모든 Scene 에서 이 곳을 참조 하십시오.
 
 <img src="https://user-images.githubusercontent.com/39338850/58546882-44c8b480-8241-11e9-939a-13d7d19c1c42.png" width="60%"></img>
-
+ 
 <img src="https://user-images.githubusercontent.com/39338850/58546897-4db98600-8241-11e9-9dc3-3747d37fb07b.png" width="60%"></img>
 
 - enum class 에 작성된 순서와 사용 될 Sound 의 commit 순서는 동일해야 합니다.
