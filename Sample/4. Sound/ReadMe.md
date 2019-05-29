@@ -21,7 +21,7 @@ SoundManager 를 통해, Sound 를 저장하고 효과적으로 Play 할 수 있
 
 3. 사용할 Sound를 Play 합니다.
 
-<img src="https://user-images.githubusercontent.com/39338850/58546285-f7981300-823f-11e9-91c4-70a94eeaa5b2.png" width="60%"></img>
+<img src="https://user-images.githubusercontent.com/39338850/58546285-f7981300-823f-11e9-91c4-70a94eeaa5b2.png" width="50%"></img>
 
 - PlaySound에 들어가는 인자는 Commit 된 순서에 따른 번호입니다. 
 우리는 Sample에서 MiniGame2.mp3 라는 Sound를 0 번째로 commit 하였기 때문에, 0의 sequence 를 부여 받습니다.
