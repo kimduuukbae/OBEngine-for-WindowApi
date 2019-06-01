@@ -46,7 +46,7 @@ private:
 	~SoundManager();
 
 	FMOD::System* pfmod;
-	FMOD::Channel* ch[4];
-	FMOD::Sound* sound[4];
+	FMOD::Channel** ch;
+	FMOD::Sound** sound;
 	int tracknum{ 0 };
 };
