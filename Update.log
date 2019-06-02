@@ -6,4 +6,5 @@ D_SOUND -> sound control
 
 19.06.02 
 D_SOUND -> sound가 4 개 이상 commit 되지 않던 오류를 수정
-Animation 추가 중
+Animation 추가
+Sprite 의 Size 가 제대로 작동 안하던 오류 수정 
