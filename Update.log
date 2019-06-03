@@ -1,4 +1,4 @@
-~ 19.06.01
+﻿~ 19.06.01
 D_SCENE -> scene control
 D_WORLD -> Init World And runLoop World
 D_INPUT -> mouse & keyBoard input control
@@ -10,4 +10,5 @@ Animation 추가
 Sprite 의 Size 가 제대로 작동 안하던 오류 수정 
 
 19.06.03 
+Animation 이 배열로 생성될 때, 출력이 되지 않던 오류를 수정
 FPS 의 Variable Frame per second 수정 중
