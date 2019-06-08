@@ -18,3 +18,4 @@ protected:
 	int xPos, yPos;
 	bool bShowFlag;
 };
+

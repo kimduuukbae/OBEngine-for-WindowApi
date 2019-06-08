@@ -3,6 +3,8 @@
 
 class Scene;
 class OBString;
+class Camera;
+
 struct SceneState {
 	Scene* scene;
 	OBString* name;
@@ -45,7 +47,7 @@ private:
 	BLENDFUNCTION bf;
 	HBRUSH fadeBrush, oldBrush;
 	OBString* currentSceneName;
-
+	Camera* cameraWorld;
 	int windowX, windowY;
 
 };

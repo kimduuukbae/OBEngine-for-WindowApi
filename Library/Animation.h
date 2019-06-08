@@ -37,6 +37,7 @@ public:
 		@return : Animation sequence 의 마지막 Index 값 
 	*/
 	int getMaxIndex();
+	void setLoop(bool flag);
 	~Animation();
 protected:
 	BLENDFUNCTION bf;
@@ -49,7 +50,7 @@ protected:
 	int Idx, IdxPlan; // 현재 애니메이션의 idx
 
 	bool blendFlag;
-
+	bool bLoop;
 	float timePlan, time;	// 애니메이션이 바뀌는 시간
 
 	HDC memDC{ nullptr };
