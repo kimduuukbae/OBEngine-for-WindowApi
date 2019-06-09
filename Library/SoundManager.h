@@ -9,36 +9,36 @@ namespace FMOD {
 class SoundManager {
 public:
 	/*
-		@Breif : »ç¿îµå instance ¸¦ ÃÊ±âÈ­ ÇÕ´Ï´Ù.
+		@Breif : ì‚¬ìš´ë“œ instance ë¥¼ ì´ˆê¸°í™” í•©ë‹ˆë‹¤.
 	*/
 	static SoundManager* instance();
 	/*
-		@Brief : »ç¿îµå instance ¸¦ ÃÊ±âÈ­½ÃÅµ´Ï´Ù.
-		@args : channelCount = Ã¤³ÎÀÇ °¹¼ö ( »ç¿îµå ¾ç¿¡ ¸Â°Ô )
+		@Brief : ì‚¬ìš´ë“œ instance ë¥¼ ì´ˆê¸°í™”ì‹œí‚µë‹ˆë‹¤.
+		@args : channelCount = ì±„ë„ì˜ ê°¯ìˆ˜ ( ì‚¬ìš´ë“œ ì–‘ì— ë§ê²Œ )
 	*/
 	void init(int channelCount);
 
 	/*
-		@Brief : »ç¿îµå¸¦ Ä¿¹ÔÇÕ´Ï´Ù.
-		@args : std::string_view : sound ÆÄÀÏ À§Ä¡, loopType : ·çÇÁ ¹æ¹ı
-		@loopType, 0: ÇÑ¹ø¸¸ Àç»ı,  2: ¹İº¹
+		@Brief : ì‚¬ìš´ë“œë¥¼ ì»¤ë°‹í•©ë‹ˆë‹¤.
+		@args : std::string_view : sound íŒŒì¼ ìœ„ì¹˜, loopType : ë£¨í”„ ë°©ë²•
+		@loopType, 0: í•œë²ˆë§Œ ì¬ìƒ,  2: ë°˜ë³µ
 	*/
 	void commit(const char* sv, int loopType);
 
 	/*
-		@Breif : Ä¿¹ÔÇÑ »ç¿îµå¸¦ ÇÃ·¹ÀÌ½ÃÅµ´Ï´Ù.
-		@args : track : Ä¿¹Ô¼ø¼­´ë·Î ½ÇÇà½ÃÅ³ »ç¿îµå
+		@Breif : ì»¤ë°‹í•œ ì‚¬ìš´ë“œë¥¼ í”Œë ˆì´ì‹œí‚µë‹ˆë‹¤.
+		@args : track : ì»¤ë°‹ìˆœì„œëŒ€ë¡œ ì‹¤í–‰ì‹œí‚¬ ì‚¬ìš´ë“œ
 	*/
 	void playSound(int track);
 
 	void stopSound(int track);
 	void setPause(bool bFlag, int track);
 	/*
-		@Breif : ¸»¾ÈÇØµµ ¾Ë°Å¶ó ¹ÏÀ½, 0.0 ~ 1.0f
+		@Breif : ë§ì•ˆí•´ë„ ì•Œê±°ë¼ ë¯¿ìŒ, 0.0 ~ 1.0f
 	*/
 	void setVolume(float f, int track);
 	/*
-		@Breif : ÇöÀç track ÀÇ Sound°¡ ÇÃ·¹ÀÌ ÁßÀÌ¶ó¸é true ¾Æ´Ï¸é false
+		@Breif : í˜„ì¬ track ì˜ Soundê°€ í”Œë ˆì´ ì¤‘ì´ë¼ë©´ true ì•„ë‹ˆë©´ false
 	*/
 	bool isPlaying(int track);
 private:
@@ -46,7 +46,7 @@ private:
 	~SoundManager();
 
 	FMOD::System* pfmod;
-	FMOD::Channel* ch[4];
-	FMOD::Sound* sound[4];
+	FMOD::Channel** ch;
+	FMOD::Sound** sound;
 	int tracknum{ 0 };
 };
