@@ -17,3 +17,5 @@ FPS 의 Variable Frame per second 수정 중
 19.06.09
 Sprite 와 button 의 drawBlend 추가 ( 뒤의 Magenta 색을 Masking 해줌 )
 D_CAMERA 추가 
+
+19.09.02 Add to Event Queue
