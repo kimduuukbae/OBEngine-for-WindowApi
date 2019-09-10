@@ -1,5 +1,11 @@
+# CLOSED 
+소스를 잘못 붙혀넣어서 Event 부터 개발이 불가능합니다. 
+형상관리를 꼭 하도록 합시다 여러분
+
+
 # OBEngine-for-WindowApi
 for WindowApi -> DirectX -> include GUI
+
 
 # How To Use ?
 
