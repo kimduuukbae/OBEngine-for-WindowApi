@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{3802511f-0ad0-4ba4-9b24-4aaaddff0d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\World">
+      <UniqueIdentifier>{819240d4-7875-4a5d-a348-3ba93227bd2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Scene">
+      <UniqueIdentifier>{a248f69f-7877-4cf4-95f4-798a77c7717a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Scene\Base">
+      <UniqueIdentifier>{dee54004-92be-45cb-91ad-f82c95b98da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\String">
+      <UniqueIdentifier>{54590900-b041-4a7c-af41-2c0c64ea9de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Fps">
+      <UniqueIdentifier>{019afe60-0ccd-40b4-9ee2-790c239a6534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Input">
+      <UniqueIdentifier>{ab956cab-cd37-4643-b954-f8771e006f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Vector">
+      <UniqueIdentifier>{f62c74a3-cf6f-47df-b7fa-4bfd6f2320ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Button">
+      <UniqueIdentifier>{540dfdd6-4933-49e8-9851-581b9f25527c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Button\Base">
+      <UniqueIdentifier>{c49d151b-7019-43c2-9c2d-37ba744401fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Sprite">
+      <UniqueIdentifier>{f865db07-625d-48a3-b0ac-c13bbee7cf55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Sound">
+      <UniqueIdentifier>{08912e6a-03c1-4b68-9dc0-630f37c35483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Camera">
+      <UniqueIdentifier>{32b45935-0a23-4363-87b2-7f5a4957abc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Event">
+      <UniqueIdentifier>{517e3e69-3e4e-4cc7-aa95-c211f8cab6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Event\Event">
+      <UniqueIdentifier>{d64ceda8-ef4f-4024-a281-0d4e3ddc16b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Library\World</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Library\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Library\Scene\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="OBString.h">
+      <Filter>Library\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>Library\Fps</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Library\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Library\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Library\Button\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickButton.h">
+      <Filter>Library\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Library\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Library\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Library\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Library\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDispatcher.h">
+      <Filter>Library\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Library\Event\Event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OBEngine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Library\World</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Library\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="OBString.cpp">
+      <Filter>Library\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>Library\Fps</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Library\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Library\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Library\Button\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickButton.cpp">
+      <Filter>Library\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Library\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Library\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Library\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Library\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Library\Event\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDispatcher.cpp">
+      <Filter>Library\Event</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

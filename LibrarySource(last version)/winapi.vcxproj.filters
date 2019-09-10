@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{e537a028-8861-4e89-849d-b2ac9133565f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{baffb0dd-be27-4e68-9eb3-a2ffadcd07f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Base">
+      <UniqueIdentifier>{a8ea5ce8-408b-4fe2-b7a2-14447f57f28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{945c8b33-be2b-49bb-b9a1-0955e31e3084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fps">
+      <UniqueIdentifier>{9c15f39a-d992-4a43-afd9-cf01abd13f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button">
+      <UniqueIdentifier>{be6a9c71-4098-4ddd-b915-8886c00eec36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Button\Base">
+      <UniqueIdentifier>{229254ae-1b0e-477a-97e3-77c84a7c63e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Base\Manager">
+      <UniqueIdentifier>{74c13d75-c3ed-44b9-9232-5a3ebf124993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{63716189-22df-44ad-9ade-9d90b7538690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{6c519bbc-90ba-477a-8cd5-04bfa6ca9314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\InGame">
+      <UniqueIdentifier>{e6ec6ce7-5a99-424c-a2d2-bea81f08f703}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>Fps</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Button\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ClickButton.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene\Base\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlapButton.cpp">
+      <Filter>Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame.cpp">
+      <Filter>Scene\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneLogo.cpp">
+      <Filter>Scene\InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenu.cpp">
+      <Filter>Scene\InGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>Fps</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Button\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ClickButton.h">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene\Base\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlapButton.h">
+      <Filter>Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGame.h">
+      <Filter>Scene\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneLogo.h">
+      <Filter>Scene\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenu.h">
+      <Filter>Scene\InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
