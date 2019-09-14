@@ -6,6 +6,11 @@
 
 FPS 는 가변 프레임으로 작성되어 있습니다. 원래는 고정 프레임이였는데, 가변 프레임으로 변경하면서 수정할 부분이 많아졌습니다. FPS 부분은 절대 참고하지 마시고 따라하지도 마십시오.
 
+# Sample 
+https://github.com/kimduuukbae/winApiProject
+
+이 라이브러리를 통하여 만들어진 게임이 여기 있습니다.
+
 # OBEngine-for-WindowApi
 for WindowApi -> DirectX -> include GUI
 
